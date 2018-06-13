@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="24dp"
+    android:orientation="horizontal"
+    android:weightSum="7">
+
+    <TextView
+        android:id="@+id/textView_url"
+        android:gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        android:text="www.bitecode.ir"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_weight="2.5">
+
+        <ImageView
+            android:id="@+id/imageView_no_email"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_cancel"/>
+
+        <TextView
+            android:id="@+id/textView_email"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:text="www.bitecode.ir"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView_tech_icon"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_width="24dp"
+            android:layout_height="24dp"/>
+    </RelativeLayout>
+    <CheckBox
+        android:layout_weight="1"
+        android:id="@+id/checkbox"
+        android:layout_width="24dp"
+        android:layout_height="24dp"/>
+</LinearLayout>
